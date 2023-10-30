@@ -1,0 +1,95 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+  align-items: center;
+
+}
+
+.menu {
+    background-color: black;
+    margin: 10px 0 10px 0;
+    padding: 20px 20px 20px 20px;
+    color:aliceblue;  
+    display:flex;
+} 
+
+li a 
+{
+padding: 5px;
+} *
+
+ul 
+{
+    list-style: none;
+    display: flex;
+}
+
+.boite {
+    height: auto;
+    display: flex;
+   
+} 
+
+section {
+    width: 67%; 
+    justify-content: space-between;
+}
+
+.colonne {
+    height: auto;
+    width: 32%;
+    background-color: darkgrey;
+} 
+
+h2 {
+    font-weight: bold; 
+    font-size:200%;
+    font-weight: normal;
+    padding-bottom: 5px; 
+} 
+
+footer {
+    width: 100%;
+}
+
+.bas {
+    background-color: black;
+    margin: 10px 0 10px 0;
+    padding: 20px 20px 20px 20px;
+    color:aliceblue;
+    display: flex;
+} 
+
+
+@media screen and (max-width: 768px){
+    .logo, .bas > p {
+        flex-wrap: wrap;
+    }
+    .logo, .accueil, .bas, .boite, .box, .colonne, .logo, .menu >p {
+        font-size: 100%;
+    }
+    .colonne {
+        visibility: hidden; 
+        width:0%;
+        display: none;
+    }
+    .boite {
+        width: 100%;
+    } 
+    section {
+        width: 100%;
+    } 
+
+    ul
+    {
+      flex-direction: column;
+    }
+}
+
+#customerData 
+{
+width: 400px;
+}
